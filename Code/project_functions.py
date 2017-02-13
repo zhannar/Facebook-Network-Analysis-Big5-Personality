@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+from sklearn import preprocessing as pp
+
+
 def label_polynomial_features(input_df,power,bias):
     '''Basically this is a cover for the sklearn preprocessing function. 
     The problem with that function is if you give it a labeled dataframe, it ouputs an unlabeled dataframe with potentially
@@ -95,7 +100,6 @@ def model_to_dictionary(model,X_test,y_test):
 
 def results_summary_to_dataframe(results):
     '''This takes the result of an statsmodel results table and transforms it into a dataframe'''
-    import pandas as pd
     results_df = pd.DataFrame()    
     pvals = results.pvalues
     coeff = results.params
