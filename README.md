@@ -18,6 +18,6 @@ The project's files are organized into the following structure:
 
 **README file** - You're reading it. Describes logistics what things are doing and how they are organized.
 
-[<img src="/Visualizations/betweenness_centrality.png">](Personality%20%26%20Network%20Importance%20&#40;Regression&#41;%20-%20April%202016%20Presentation.pdf)
-
-![alt text](/Visualizations/betweenness_centrality.png)_
+<p align="center">
+<img src="/Visualizations/betweenness_centrality.png" width="600" />
+</p>
